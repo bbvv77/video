@@ -1,0 +1,111 @@
+li{
+    list-style: none;
+}
+#head{
+    width: 100%;
+    background-color: #D8D8D8;
+}
+#head1{
+    width: 100%;
+    height: 38px;
+    background-color: #5bb7fe;
+}
+#head2{
+    width: 72%;
+    margin:0 auto;
+}
+#playlist{
+    width: 88%;
+    height: 300px;
+    margin:0 auto;
+}
+#playul{
+    width: 18%;
+    height: 300px;
+    float: left;
+}
+#ipt{
+    border:none;
+    color : "black";
+    background-color:rgb(230, 230, 230);
+}
+#cover{
+    display: block;
+    position: relative;
+    background-position: 50% 50%!important;
+    background-size: cover!important;
+    width: 160px;
+    height: 224px;
+    border-radius: 8px;
+}
+#cover .type{
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: #5bb7fe
+}
+#cover .year{
+    color: #fff;
+    text-align: right;
+    width: 100%;
+    bottom: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    overflow: hidden;
+}
+#button{
+    float: left;
+    border:none;
+    width: 180px;
+}
+#menu{
+    width: 325px;
+    float: right;
+    direction: ltr;
+    overflow: auto;
+    
+}
+#menu button{
+    width: 65px;
+    color: #eeeeee !important;
+    background-color: #292929 !important;
+}
+#dplayer{
+    border-radius: 8px;
+}
+
+.header__top{
+    position: relative;
+    height: 100px;
+    padding:0 20px;
+    background-color: #e0e0e0;
+}
+.container{
+    width: 990px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+.row{position: relative; margin-right: -15px; margin-left: -15px;}
+.header__logo{float:left; margin-right: 120px;}
+.header__logo{ width: 282px; margin-top: 20px}
+.header__logo .logo{display:block; width:282px; height:60px; background:url(../img/logo_max_f.png) no-repeat;background-position:50% 50%;background-size:cover}
+.header__search{ float:left; position:relative; width:280px; margin-top: 32px; }
+.header__search .form-control{display:block; width:100%; height: 35px; padding:6px 45px 6px 10px; font-size:12px; line-height:32px; border-radius: 5px; transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s; background-color:	; color: ; border: 0;}
+.header__search .submit{display:block; position:absolute; top: 0; right: 0; width:35px; height:35px; border: 0; cursor: pointer; background: url(https://www.msdm.moe/newszy/img/icon_seacrh.png) center no-repeat;}
+
+a:active,a:visited{outline:0 none;text-decoration: none;cursor: pointer;color: #111;}
+.result_figure{position:absolute;top:0;left:-180px;width:160px;height:224px}
+.figure .figure_caption{position:absolute;right:0;bottom:0;left:0;width:auto;height:20px;padding:10px 10px 20px 10px;overflow:hidden;border-radius:0 0 4px 4px;background:linear-gradient(0deg,#000,#000 25.5%,#000 70%,#000);background:linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.3) 25.5%,rgba(0,0,0,.08) 70%,rgba(0,0,0,0));color:#fff;font-size:13px;letter-spacing:normal;line-height:20px;text-overflow:ellipsis;white-space:nowrap;cursor:pointer}
+.figure_collect{-webkit-transition:opacity .2s ease-in-out;visibility:hidden;position:absolute;right:4px;bottom:0;width:32px;height:32px;border-radius:2px;color:#fff;cursor:pointer;opacity:0;transition:opacity .2s ease-in-out}
+.figure .mark_v{position:absolute;top:0;left:0}
+.figure .mark_x{position:absolute;top:0;right:0}
+.figure:visited .figure_pic{transition:box-shadow 1s ease-out,transform 0s ease,-webkit-filter 1s ease-out}
+.figure .figure_pic,.figure img{object-fit:fill;display:block;max-width:100%;max-height:100%;border-radius: 5px;background-color:#f8f8f8;border: 0;transition: box-shadow 1s ease-out,transform 0s ease,-webkit-filter 1s ease-out}
+.figure_info{display:inline;font-size:14px;color:#fff;}
+.topleftright{height:20px;line-height:20px}
+.cardlefttopright{right:8px;}
+.topright{font-family:PingFangSC-Regular,Microsoft YaHei,微软雅黑,helvetica,arial,verdana,tahoma,sans-serif;font-size:12px;color:#fff;border-radius:0 0 2px 2px;-webkit-border-radius:0 0 2px 2px;-moz-border-radius:0 0 2px 2px;-ms-border-radius:0 0 2px 2px;-o-border-radius:0 0 2px 2px;text-align:center;box-sizing:border-box;padding:0 4px;cursor:pointer;position:absolute;z-index:12;top:0}
+.fuzzy-logic-card{position:absolute;color:hsla(0,0%,100%,.87);font-size:6px;z-index:15;right:1px;bottom:1px;}
