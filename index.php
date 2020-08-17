@@ -6,7 +6,7 @@
         <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
         <link rel="bookmark" href="./favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/d.css" type="text/css" />
-</head>
+    </head>
 <body>
 <div id="head">
     <div id="head1">
@@ -22,11 +22,11 @@
             <input type="submit" value="分析"></p>
         </form>
 </div></div>
-    <?php
+<?php
 date_default_timezone_set("Asia/Shanghai");
 if(isset($_COOKIE['search'])){
     $searchs = unserialize($_COOKIE['search']);
-    print_r("<div><form action='./dx.php' method='POST'><p>继续上一次搜素<input type='hidden' type='text' name='wd' value=".$searchs[0]."> <input id='ipt' onmousemove='red(this)' onmouseout='black(this)' type='submit' value=".$searchs[0].">".date('Y/m/d/H:i',$searchs[1])."</p></form></div>");
+    print_r("<div><form action='./dx.php' method='POST'><p>继续上一次搜素<input type='hidden' type='text' name='wd' value=".$searchs[0]."> <input id='ipt' onmousemove='red(this)' onmouseout='black(this)' type='submit' value=".$searchs[0].">".date('Y/m/d/H:i',$searchs[1])."</p>".$searchs[3]."</form></div>");
 }
 if(isset($_COOKIE['dt'])){
     $dt = unserialize($_COOKIE['dt']);
